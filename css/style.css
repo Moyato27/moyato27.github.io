@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.title-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+    margin-left: 20%;
+}
+
+footer,
+section {
+    padding: 100px 0;
+}
+
+header {
+    background-color: aliceblue;
+    border-bottom: 1px solid black;
+}
+
+.icon {
+    max-width: 25px;
+    display: block;
+}
+
+.icon-1 {
+    max-width: 30px;
+}
+
+.skill-item {
+    margin-left: 0;
+}
+
+.skill-container {
+    padding: 0;
+}
+
+.block {
+    display: block;
+}
