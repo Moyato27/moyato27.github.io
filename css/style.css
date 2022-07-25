@@ -87,6 +87,12 @@ section {
     border-radius: 40px 40px;
 }
 
+.map-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
     .about {
         flex-direction: column;
