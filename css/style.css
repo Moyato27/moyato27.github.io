@@ -3,47 +3,105 @@ ul {
     padding-left: 0;
 }
 
+
+section {
+    padding: 100px 0;
+}
+
+/* section-hero */
+.icon {
+    max-width: 15px;
+}
+
 .header-title {
     text-align: center;
     font-size: 24px;
 }
 
-.title-list {
+.spec-info {
+    font-size: 16px;
     display: flex;
-    flex-direction: column;
     gap: 15px;
-    padding-top: 15px;
-    margin-left: 20%;
 }
 
-header,
-footer,
-section {
-    padding: 100px 0;
+.mo-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-header {
+.mo-mt-30 {
+    margin-top: 30px;
+}
+
+.container {
     background-color: aliceblue;
-    border-bottom: 1px solid black;
 }
 
-.icon {
-    max-width: 25px;
-    display: block;
+.mo-key_container {
+    display: flex;
+    gap: 15px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid blue;
 }
 
-.icon-1 {
-    max-width: 30px;
+.skills {
+    max-width: 40%;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    margin-right: 6%;
 }
 
-.skill-item {
-    margin-left: 0;
+.cards-img {
+    max-width: 100px;
 }
 
-.skill-container {
-    padding: 0;
+.map {
+    max-width: 50%;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid blue;
 }
 
-.block {
-    display: block;
+.logo-vue {
+    max-width: 100px;
+}
+
+.map-2 {
+    display: flex;
+    gap: 10%;
+}
+
+.about {
+    display: flex;
+}
+
+.footer {
+    padding: 30px;
+    background-color: cornflowerblue;
+    border-radius: 40px 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .skills {
+        max-width: 100%;
+        margin-bottom: 7%;
+    }
+
+    .map {
+        max-width: 100%;
+    }
+
+    .avatar {
+        margin-bottom: 7%;
+    }
 }
